@@ -13,7 +13,6 @@ header {
 div {
   display: flex; 
   flex-wrap: wrap, column;
-
 }
 
 h1 {
@@ -32,10 +31,6 @@ h1 {
   display: absolute;
 
   
-}
-main {}
-
-section.main {
 }
 
 h2 {
