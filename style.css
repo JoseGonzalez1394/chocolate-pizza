@@ -1,71 +1,197 @@
 /* TEXT */
 
-body {}
+body {
+  max-width: 960px;
+  margin: auto;
+}
 
-header {}
+header {
+  height: 80px;
 
-div {}
+}
 
-h1 {}
+div {
+  display: flex; 
+  flex-wrap: wrap, column;
 
+}
+
+h1 {
+  margin-left: 10px;
+  justify-content: flex-start;
+  font-size: 210%;
+  padding-top: 0px;
+  display: absolute;
+  
+
+}
+
+#supP{
+  display:flex;
+  color: grey;
+  display: absolute;
+
+  
+}
 main {}
 
-section.main {}
+section.main {
+}
 
-h2 {}
+h2 {
+  font-size: 5vw;
+  font-family: 'nunito', sans-serif;
+  display: absolute;
+}
 
-#date {}
+#date {
+  color: grey;
+  float: left;
+  display: absolute;
+}
 
-#printimage #printtext p {}
+#printimage{
+  height: 10px;
+  display: absolute;
+  margin-left: 1000px;
+  margin-bottom: 50px;
+  block-size: fit-content;
+} 
 
-section.list {}
+#printtext {
+  display: absolute;
+  margin-left: 850px;
+  font-size: small;
+  margin-top: 15px;
+  margin-bottom:10px;
+}
 
-ul {}
+p {
+  color: grey;
+  width: 900px;
+  text-indent: 50px;
+  font-size: x-large;
+  padding: 10px;
+  margin-bottom: 1px ;
 
-li {}
+}
+#list1 {
+  display: flex;
+  flex-direction: row ;
+  position: absolute;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-left: 100px;
+  
+}
 
-article {}
+#list2{
+  display: flex;
+  flex-direction: row ;
+  position: absolute;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  margin-left: 500px;
+  
+  
+}
 
-#name {}
+li {
+  list-style-type: square;
+  justify-content: space-evenly;
+  margin: 20px;
+}
 
-button {}
+article {
+  display: inline-block;
+}
+
+#name {
+  display: flex;
+  justify-content:column;
+  margin-left: 120px;
+  font-size: large;
+}
+
+#bio{
+  display: flex;
+  justify-content:column;
+  margin-left: 60px;
+  font-size: large;
+}
+
+button {
+  float: right;
+  color: whitesmoke;
+  background-color: orange;
+  size: x-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 footer {}
 
-#footertext {}
+#footertext {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
 
 /* IMAGES */
 
 /* Social Icons */
-div.icons {}
+div.icons {
+  float: right;
+  margin: 1px;}
 
-#fb {}
+#fb {margin: 1px;
+}
 
-#twitter {}
+#twitter {margin: 1px;}
 
-#google {}
+#google {margin: 1px;}
 
-#insta {}
+#insta {margin: 1px;}
 
-#flickr {}
+#flickr {margin: 1px;}
 
-#pinterest {}
+#pinterest {margin: 1px;}
 
-#rss {}
+#rss {margin: 1px;}
 
-#mail {}
+#mail {margin: 1px;}
 
 
 /* ************ */
 
-#forklogoh {}
+#forklogoh {
+width: 50px;
+height: 50px;
+display: absolute;
+}
 
 img.slashhead {}
 
-#slashfoot #chocolatepizza {}
+#slashfoot{
+  border-image-repeat: repeat;
+} 
+#chocolatepizza {}
 
 #notepad {}
 
-#profilepic {}
+#profilepic {
+  float: bottom;
+  display: flex;
+  justify-content:flex-start;
+  position: absolute;
+}
 
-#forkiconfoot {}
+#forkiconfoot {
+  display: flex;
+  justify-content:column;
+  margin-left: 450px;
+
+}
+
+footer{
+  display: inline-block;
+}
